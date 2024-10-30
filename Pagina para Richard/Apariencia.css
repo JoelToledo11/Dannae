@@ -1,0 +1,30 @@
+/* PARA EL MODAL DEL "iNICIAR SESIÓN" */
+/* Personalización del modal si es necesario */
+
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+/* CARTEL DE BIENVENIDA */
+.welcome-banner {
+    background-color: burlywood; /* Cambia la URL por tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;/* PARA CAMBIAR EL COLOR DE LAS LETRAS */
+    padding: 20px;
+    position: relative;
+}
+
+.welcome-banner h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.welcome-banner h3 {
+    font-size: 1.5rem;
+    margin: 10px 0 20px;
+}
